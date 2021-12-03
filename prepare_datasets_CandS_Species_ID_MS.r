@@ -347,10 +347,10 @@ nrow(expert.data)
 #remove unnecessary columns
 class.data<-class.data[,-which(colnames(class.data) %in% c("User.Clip","Classification.ID.Species"))]
 
-# write.table(class.data, "your path here/class_data_for_analysis_CandS_Species_ID_MS.txt", sep="\t", row.names=F, col.names=T)
-# write.table(expert.data, "your path here/expert_data_for_analysis_CandS_Species_ID_MS.txt", sep="\t", row.names=F, col.names=T)
+# write.table(class.data, "YourPathHere/class_data_for_analysis_CandS_Species_ID_MS.txt", sep="\t", row.names=F, col.names=T)
+# write.table(expert.data, "YourPathHere/expert_data_for_analysis_CandS_Species_ID_MS.txt", sep="\t", row.names=F, col.names=T)
 
-write.table(class.data, "D:/Desktop/iDiv_ChimpAndSee/Paper analyses/Rerun 2021/copies for github/class_data_for_analysis_CandS_Species_ID_MS.txt", sep="\t", row.names=F, col.names=T)
-write.table(expert.data, "D:/Desktop/iDiv_ChimpAndSee/Paper analyses/Rerun 2021/copies for github/expert_data_for_analysis_CandS_Species_ID_MS.txt", sep="\t", row.names=F, col.names=T)
+write.table(class.data, "YourPathHere/class_data_for_analysis_CandS_Species_ID_MS.txt", sep="\t", row.names=F, col.names=T)
+write.table(expert.data, "YourPathHere/expert_data_for_analysis_CandS_Species_ID_MS.txt", sep="\t", row.names=F, col.names=T)
 
 
