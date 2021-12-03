@@ -3,13 +3,13 @@
 ######################################
 # create classification and expert datasets for analysis
 
-class.data<-read.table("D:/Desktop/iDiv_ChimpAndSee/Paper analyses/Rerun 2021/copies for github/all_raw_classification_data_Species_ID_MS.txt", sep="\t", header=T)
+class.data<-read.table("YourPathHere/all_raw_classification_data_Species_ID_MS.txt", sep="\t", header=T)
 nrow(class.data)
 #369671
 length(unique(class.data$Video.ID))
 #13531
 
-expert.data<-read.table("D:/Desktop/iDiv_ChimpAndSee/Paper analyses/Rerun 2021/copies for github/all_expert_data_Species_ID_MS.txt", sep="\t", header=T)
+expert.data<-read.table("YourPathHere/all_expert_data_Species_ID_MS.txt", sep="\t", header=T)
 nrow(expert.data)
 #13814
 length(unique(expert.data$Video.ID))
